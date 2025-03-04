@@ -1,0 +1,133 @@
+/* Import Lato Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('7889636.jpg') no-repeat center center/cover;
+}
+
+/* Matte, Transparent Login Box */
+.login-container {
+    background: rgba(30, 30, 30, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    backdrop-filter: blur(12px);
+}
+
+/* Title */
+h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Input Labels */
+.input-label {
+    display: block;
+    text-align: left;
+    color: #D3D3D3;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* Input Fields */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: 0.3s ease;
+    border-radius: 8px;
+}
+
+/* Smooth Input Focus */
+.input-group input:focus {
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Show/Hide Password Button */
+.password-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.toggle-password {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    right: 15px;
+    transition: 0.3s;
+}
+
+.toggle-password:hover {
+    color: #ccc;
+}
+
+/* Professional Login Button */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: #3a3a3a;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* Subtle Hover Effect */
+.login-btn:hover {
+    background: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Sign-up Link */
+.signup-link {
+    margin-top: 15px;
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
